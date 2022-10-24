@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5549584939299457183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5549584939299457169}
+  - component: {fileID: 5549584939299457182}
+  - component: {fileID: 5549584939299457168}
+  m_Layer: 0
+  m_Name: InputManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5549584939299457169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549584939299457183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5549584939299457182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549584939299457183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca7dddb730a7b464f876e23b2020964b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vrInput: {fileID: 5549584939299457168}
+  lookType: 0
+--- !u!114 &5549584939299457168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5549584939299457183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df101bc2242f0064f9e5c7316dd96761, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  button_A: 0
+  button_B: 0
+  button_X: 0
+  button_Y: 0
+  trigger_Right: 0
+  trigger_Left: 0
+  gripTrigger_Right: 0
+  gripTrigger_Left: 0
+  triggerValue_right: 0
+  triggerValue_left: 0
+  gripTriggerValue_rigt: 0
+  gripTriggerValue_left: 0
+  joystick_right: {x: 0, y: 0}
+  joystickClick_right: 0
+  joystick_left: {x: 0, y: 0}
+  joystickClick_left: 0

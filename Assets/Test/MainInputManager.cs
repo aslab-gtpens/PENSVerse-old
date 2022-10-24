@@ -34,7 +34,7 @@ public class MainInputManager : MonoBehaviour
         playerControler.FlyMovement.LookDirection.performed += i => _lookAxis = i.ReadValue<Vector2>();
 
         
-        //enable input action
+        //enable input acti
         playerControler.Enable();
     }
 

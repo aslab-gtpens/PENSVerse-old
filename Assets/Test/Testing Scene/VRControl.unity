@@ -843,8 +843,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vrInput: {fileID: 697964041}
-  _moveAxis: {x: 0, y: 0}
-  lookAxis: {x: 0, y: 0}
   lookType: 0
 --- !u!4 &697964040
 Transform:
@@ -1062,7 +1060,6 @@ GameObject:
   - component: {fileID: 839654828}
   - component: {fileID: 839654827}
   - component: {fileID: 839654826}
-  - component: {fileID: 839654825}
   - component: {fileID: 839654824}
   m_Layer: 0
   m_Name: Capsule
@@ -1089,25 +1086,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &839654825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839654823}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da266bf1bc14ff1419baed1909da8623, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inputManager: {fileID: 697964039}
-  characterController: {fileID: 839654824}
-  moveSpeed: 10
-  minimumPivot: -90
-  maximumPivot: 90
-  bodyTransform: {fileID: 839654829}
-  CameraTransform: {fileID: 474119577}
 --- !u!136 &839654826
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1357,10 +1335,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da266bf1bc14ff1419baed1909da8623, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputManager: {fileID: 697964039}
+  inputManager: {fileID: 0}
   characterController: {fileID: 0}
-  moveSpeed: 1
-  minimumPivot: 0
-  maximumPivot: 0
-  bodyTransform: {fileID: 0}
-  CameraTransform: {fileID: 0}
+  moveSpeed: 10
+  rotateSpeed: 100
+  cameraPivot: {fileID: 0}
