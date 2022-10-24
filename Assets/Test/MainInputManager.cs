@@ -10,9 +10,9 @@ public class MainInputManager : MonoBehaviour
     OtherPlayerControler playerControler;
 
     private Vector2 _moveAxis;
-    public Vector2 moveAxis=>moveAxis;
+    public Vector2 moveAxis=>_moveAxis;
     private Vector2 _lookAxis;
-    public Vector2 lookAxis=>lookAxis;
+    public Vector2 lookAxis => _lookAxis;
     //public Vector2 moveAxis => _moveAxis;
 
     public InputLookType lookType;
